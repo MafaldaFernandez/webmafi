@@ -9,19 +9,21 @@
 }
 
 :root {
-    --primary-color: #4a6b5a;
-    --secondary-color: #fef9f5;
-    --accent-color: #a0dcc9;
-    --light-gray: #e5f5f0;
-    --medium-gray: #d4f0e8;
-    --dark-gray: #7a9e8b;
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --accent-color: #b89cdb;
+    --accent-green: #a0dcc9;
+    --light-gray: #f0e8f5;
+    --medium-gray: #e8d4f0;
+    --dark-gray: #000000;
     --spacing: 1rem;
 }
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    background: linear-gradient(135deg, #f5faf8 0%, #e8f7f3 50%, #f0faf6 100%);
+    background-attachment: fixed;
+    color: #000000;
     line-height: 1.6;
 }
 
@@ -53,8 +55,8 @@ body {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #a0dcc9 0%, #c8f0e0 100%);
-    box-shadow: 0 4px 20px rgba(160, 220, 201, 0.3);
+    background: linear-gradient(135deg, #b89cdb 0%, #a0dcc9 100%);
+    box-shadow: 0 4px 20px rgba(184, 156, 219, 0.3);
 }
 
 .name {
@@ -65,7 +67,7 @@ body {
 
 .title {
     font-size: 1.3rem;
-    color: var(--accent-color);
+    color: #b89cdb;
     font-weight: 500;
     margin: 0;
 }
@@ -91,7 +93,7 @@ body {
     font-weight: 600;
     margin-bottom: 2rem;
     padding-bottom: 1rem;
-    border-bottom: 2px solid var(--accent-color);
+    border-bottom: 2px solid #b89cdb;
     display: inline-block;
 }
 
@@ -108,7 +110,7 @@ body {
 .education-item {
     padding: 1.5rem;
     background-color: var(--light-gray);
-    border-left: 4px solid var(--accent-color);
+    border-left: 4px solid #b89cdb;
     border-radius: 4px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -136,8 +138,8 @@ body {
 .status {
     display: inline-block;
     padding: 0.4rem 0.8rem;
-    background-color: var(--accent-color);
-    color: white;
+    background-color: #a0dcc9;
+    color: #000000;
     border-radius: 20px;
     font-size: 0.8rem;
     font-weight: 500;
@@ -169,8 +171,8 @@ body {
 }
 
 .skill-card:hover {
-    border-color: var(--accent-color);
-    box-shadow: 0 6px 16px rgba(160, 220, 201, 0.25);
+    border-color: #b89cdb;
+    box-shadow: 0 6px 16px rgba(184, 156, 219, 0.25);
     transform: translateY(-2px);
 }
 
@@ -195,8 +197,8 @@ body {
 .about-text {
     font-size: 1rem;
     line-height: 1.8;
-    color: var(--dark-gray);
-    background-color: var(--light-gray);
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 2rem;
     border-radius: 8px;
     text-align: justify;
