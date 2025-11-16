@@ -6,25 +6,43 @@
     <title>Currículum — Mafalda Fernández Rodríguez</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+    <div class="page-spacer" aria-hidden="true"></div>
+    <div class="container resume">
     <div class="container resume">
         <header class="header">
             <div class="profile">
                 <div class="profile-avatar">
-                    <img src="images/photo.jpg" alt="Foto de Mafalda Fernández Rodríguez" class="avatar-img">
+                    <!-- Imagen embebida como placeholder SVG en base64 (sustituible por la foto real) -->
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><rect fill='%23FBF6DF' width='200' height='200'/><circle cx='100' cy='72' r='42' fill='%23cfcfcf'/><rect x='40' y='125' width='120' height='42' rx='6' fill='%23cfcfcf'/></svg>" alt="Foto de Mafalda Fernández Rodríguez" class="avatar-img">
                 </div>
                 <div class="profile-info">
-                    <h1 class="name">Mafalda Fernández Rodríguez</h1>
+                    <p class="intro">Soy economista con sólida formación cuantitativa y una creciente especialización en ciencia de datos. Me implico profundamente en cada proyecto, aportando rigor analítico, pensamiento crítico y una actitud proactiva para obtener resultados medibles. Trabajo de forma colaborativa en equipos multidisciplinares, facilitando la comunicación y asegurando que las soluciones técnicas se traduzcan en mejoras reales para el negocio o la administración pública. Enfrento problemas complejos con enfoque resolutivo: priorizo el análisis, diseño alternativas viables y ejecuto acciones orientadas al impacto y al aprendizaje continuo.</p>
                     <p class="title">Graduada en Economía · Estudiante de Máster en Data Science, Big Data y Business Analytics</p>
                     <p class="intro">Soy economista con sólida formación cuantitativa y una creciente especialización en ciencia de datos. Me implico profundamente en cada proyecto, aportando rigor analítico, pensamiento crítico y una actitud proactiva para obtener resultados medibles. Trabajo de forma colaborativa en equipos multidisciplinares, facilitando la comunicación y asegurando que las soluciones técnicas se traducen en mejoras reales para el negocio o la administración pública. Enfrento problemas complejos con enfoque resolutivo: priorizo el análisis, diseño alternativas viables y ejecuto acciones orientadas al impacto y al aprendizaje continuo.</p>
                     <p class="contact">Contacto: disponible bajo petición</p>
                 </div>
+        
+        <div class="intro-box">
+            <strong>Sobre esta página:</strong>
+            <p>Este sitio presenta el currículum vitae de forma clara y profesional, organizado en secciones que facilitan la lectura y la evaluación rápida de formación, experiencia y competencias. Está diseñado para ser usado como CV online, con estructura apta para visualización en pantalla y exportación a PDF si se requiere.</p>
+        </div>
             </div>
         </header>
 
         <main class="resume-grid">
+            <nav class="outline" aria-label="Esquema del CV">
+                <ul>
+                    <li><a href="#perfil">Perfil</a></li>
+                    <li><a href="#formacion">Formación</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#otros">Otros</a></li>
+                    <li><a href="#disponibilidad">Disponibilidad</a></li>
+                </ul>
+            </nav>
             <section class="left-column">
-                <h2 class="section-title">Formación</h2>
+                <h2 id="formacion" class="section-title">Formación</h2>
                 <div class="education-list">
                     <div class="education-item">
                         <div class="education-header">
@@ -41,7 +59,7 @@
                     </div>
                 </div>
 
-                <h2 class="section-title">Experiencia profesional</h2>
+                <h2 id="experiencia" class="section-title">Experiencia profesional</h2>
                 <div class="experience-list">
                     <div class="experience-item">
                         <div class="experience-header">
@@ -52,7 +70,7 @@
                     </div>
                 </div>
 
-                <h2 class="section-title">Cursos y formación complementaria</h2>
+                <h2 id="cursos" class="section-title">Cursos y formación complementaria</h2>
                 <ul class="courses-list">
                     <li><strong>Inglés:</strong> Certificado Cambridge B1</li>
                     <li><strong>Italiano:</strong> Nivel A2</li>
@@ -60,7 +78,7 @@
                     <li><strong>"Model Thinking"</strong> — Universidad de Michigan (Coursera) (2022)</li>
                 </ul>
 
-                <h2 class="section-title">Habilidades informáticas</h2>
+                <h2 id="habilidades" class="section-title">Habilidades informáticas</h2>
                 <ul class="skills-list">
                     <li><strong>Microsoft Office:</strong> nivel avanzado (Excel, Word, PowerPoint)</li>
                     <li><strong>Google Workspace:</strong> Docs, Sheets, Slides</li>
@@ -70,10 +88,10 @@
             </section>
 
             <aside class="right-column">
-                <h2 class="section-title">Perfil y objetivo</h2>
+                <h2 id="perfil" class="section-title">Perfil y objetivo</h2>
                 <p class="about-text">Soy una economista en formación avanzada en ciencia de datos, interesada en aplicar técnicas cuantitativas y enfoques de Big Data para la toma de decisiones empresariales y públicas. Busco posiciones que combinen análisis de datos con impacto real en políticas o negocio.</p>
 
-                <h2 class="section-title">Otros</h2>
+                <h2 id="otros" class="section-title">Otros</h2>
                 <ul class="other-list">
                     <li>Azafata de eventos en IFEMA (Madrid, 2025)</li>
                     <li>Conservatorio profesional de música de Gijón — Especialidad piano (2015–2021)</li>
@@ -81,7 +99,7 @@
                     <li>Intercambio con Curtis High School, Staten Island, Nueva York (Sep 2018)</li>
                 </ul>
 
-                <h2 class="section-title">Disponibilidad</h2>
+                <h2 id="disponibilidad" class="section-title">Disponibilidad</h2>
                 <p class="availability">Disponible para prácticas o posiciones junior; abierta a oportunidades internacionales.</p>
             </aside>
         </main>
