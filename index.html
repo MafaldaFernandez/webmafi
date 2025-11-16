@@ -3,78 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Perfil Profesional</title>
+    <title>Currículum — Mafalda Fernández Rodríguez</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Header/Presentación -->
+    <div class="container resume">
         <header class="header">
             <div class="profile">
-                <div class="profile-avatar"></div>
-                <h1 class="name">Mafalda</h1>
-                <p class="title">Economista & Data Scientist</p>
-                <p class="subtitle">Especialista en Big Data y Business Analytics</p>
+                <div class="profile-avatar" aria-hidden="true"></div>
+                <div class="profile-info">
+                    <h1 class="name">Mafalda Fernández Rodríguez</h1>
+                    <p class="title">Graduada en Economía · Estudiante de Máster en Data Science, Big Data y Business Analytics</p>
+                    <p class="intro">Me implico mucho en el trabajo, trabajo en equipo con facilidad y siempre intento sacar lo mejor de cada experiencia. Mantengo una actitud positiva y soy resolutiva ante problemas.</p>
+                    <p class="contact">Contacto: disponible bajo petición</p>
+                </div>
             </div>
         </header>
 
-        <!-- Sección de Formación -->
-        <section class="section">
-            <h2 class="section-title">Formación Académica</h2>
-            <div class="education-list">
-                <div class="education-item">
-                    <div class="education-header">
-                        <h3>Graduada en Economía</h3>
-                        <span class="status">Completado</span>
+        <main class="resume-grid">
+            <section class="left-column">
+                <h2 class="section-title">Formación</h2>
+                <div class="education-list">
+                    <div class="education-item">
+                        <div class="education-header">
+                            <h3>GRADO DE ECONOMÍA — Universidad de Oviedo (UNIOVI)</h3>
+                            <span class="meta">2020 — 2025</span>
+                        </div>
                     </div>
-                    <p class="education-description">Formación sólida en teoría económica, análisis cuantitativo y estadística aplicada.</p>
-                </div>
-                <div class="education-item">
-                    <div class="education-header">
-                        <h3>Master en Data Science, Big Data y Business Analytics</h3>
-                        <span class="status">En Curso</span>
+
+                    <div class="education-item">
+                        <div class="education-header">
+                            <h3>PROGRAMA ERASMUS — Università di Modena e Reggio Emilia, Italia</h3>
+                            <span class="meta">Sep 2023 — Jul 2024</span>
+                        </div>
                     </div>
-                    <p class="education-description">Profundizando en ciencia de datos, análisis avanzado y gestión de grandes volúmenes de información.</p>
                 </div>
-            </div>
-        </section>
 
-        <!-- Sección de Competencias -->
-        <section class="section">
-            <h2 class="section-title">Competencias</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <h3>Análisis de Datos</h3>
-                    <p>Análisis exploratorio, estadística descriptiva e inferencial.</p>
+                <h2 class="section-title">Experiencia profesional</h2>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>PRÁCTICAS ACADÉMICAS — Dirección General del Área Económico-Financiera, Ayuntamiento de Gijón</h3>
+                            <span class="meta">Mar 2025 — May 2025</span>
+                        </div>
+                        <p class="experience-desc">Apoyo en tareas de análisis económico-financiero, elaboración de informes y gestión de datos para proyectos municipales.</p>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <h3>Business Intelligence</h3>
-                    <p>Transformación de datos en insights accionables para la toma de decisiones.</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Big Data</h3>
-                    <p>Manejo de grandes volúmenes de datos y tecnologías de procesamiento distribuido.</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Python & SQL</h3>
-                    <p>Programación para análisis y consultas de bases de datos.</p>
-                </div>
-            </div>
-        </section>
 
-        <!-- Sección Sobre Mí -->
-        <section class="section">
-            <h2 class="section-title">Sobre Mí</h2>
-            <p class="about-text">
-                Soy una profesional apasionada por transformar datos en decisiones estratégicas. Con una base sólida en economía 
-                y en formación continua en data science, busco combinar el análisis cuantitativo con la inteligencia empresarial 
-                para generar valor en las organizaciones.
-            </p>
-        </section>
+                <h2 class="section-title">Cursos y formación complementaria</h2>
+                <ul class="courses-list">
+                    <li><strong>Inglés:</strong> Certificado Cambridge B1</li>
+                    <li><strong>Italiano:</strong> Nivel A2</li>
+                    <li><strong>"Excel"</strong> — Open Academy Santander (2025)</li>
+                    <li><strong>"Model Thinking"</strong> — Universidad de Michigan (Coursera) (2022)</li>
+                </ul>
 
-        <!-- Footer -->
+                <h2 class="section-title">Habilidades informáticas</h2>
+                <ul class="skills-list">
+                    <li><strong>Microsoft Office:</strong> nivel avanzado (Excel, Word, PowerPoint)</li>
+                    <li><strong>Google Workspace:</strong> Docs, Sheets, Slides</li>
+                    <li><strong>Software econométrico:</strong> Gretl</li>
+                    <li><strong>Programación y análisis:</strong> Python, SQL (nivel básico/intermedio)</li>
+                </ul>
+            </section>
+
+            <aside class="right-column">
+                <h2 class="section-title">Perfil y objetivo</h2>
+                <p class="about-text">Soy una economista en formación avanzada en ciencia de datos, interesada en aplicar técnicas cuantitativas y enfoques de Big Data para la toma de decisiones empresariales y públicas. Busco posiciones que combinen análisis de datos con impacto real en políticas o negocio.</p>
+
+                <h2 class="section-title">Otros</h2>
+                <ul class="other-list">
+                    <li>Azafata de eventos en IFEMA (Madrid, 2025)</li>
+                    <li>Conservatorio profesional de música de Gijón — Especialidad piano (2015–2021)</li>
+                    <li>Participante en convenio Conservatorio — Ayuntamiento de Gijón como música en bodas municipales (2019)</li>
+                    <li>Intercambio con Curtis High School, Staten Island, Nueva York (Sep 2018)</li>
+                </ul>
+
+                <h2 class="section-title">Disponibilidad</h2>
+                <p class="availability">Disponible para prácticas o posiciones junior; abierta a oportunidades internacionales.</p>
+            </aside>
+        </main>
+
         <footer class="footer">
-            <p>&copy; 2025 Mafalda. Todos los derechos reservados.</p>
+            <p>&copy; 2025 Mafalda Fernández Rodríguez — Currículum vitae</p>
         </footer>
     </div>
 </body>
